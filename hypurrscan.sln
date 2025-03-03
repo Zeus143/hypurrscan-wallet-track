@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hypurrscan", "hypurrscan\hypurrscan.csproj", "{F048B09F-6064-4426-AA27-DFDEEB7E2DB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F048B09F-6064-4426-AA27-DFDEEB7E2DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F048B09F-6064-4426-AA27-DFDEEB7E2DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F048B09F-6064-4426-AA27-DFDEEB7E2DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F048B09F-6064-4426-AA27-DFDEEB7E2DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D23AC0F9-261B-4719-A5B9-58C380B7F9E7}
+	EndGlobalSection
+EndGlobal
