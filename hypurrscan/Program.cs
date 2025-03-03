@@ -13,11 +13,15 @@ namespace hypurrscan
         static string guncel;
         // Telegram bot configuration
         static string telegramBotToken = "<BOT:TOKEN>"; // Replace with your bot token
-        static string telegramChatId = "<CHAT ID>"; // Replace with your chat ID
+        static string telegramChatId = "<ChatID>"; // Replace with your chat ID
 
         static void Main(string[] args)
         {
             //SendTelegramMessage("test");
+            Console.Write("Telegram Bot Token: ");
+            telegramBotToken = Console.ReadLine();
+            Console.Write("Chat ID: ");
+            telegramChatId = Console.ReadLine();
             Console.WriteLine("Starting HypurrScan monitor with Telegram notifications...");
             old = Req().Result;
             Console.WriteLine("Initial coin: " + old);
